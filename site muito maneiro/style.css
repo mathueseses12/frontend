@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    background-image: url("brr brr patapim.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+}
+
+h1, h2 {
+    color: #ff4d4d;
+}
+.botao{
+    margin-bottom: 50px;
+}
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+
+
+button:hover {
+    background-color: #ff1a1a; 
+    transform: scale(1.1); 
+}
